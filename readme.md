@@ -6,6 +6,7 @@ cari bola ada codingan SIAP || case 1
  
 
 INVERS KINEMATIK
+
     //kaki kanan  (gerakan per servo)                 
     sudutSet[5]  = pinggul (kanan kiri)        90++ depan keluar
     sudutSet[4]  = pinggang (mask keluar)      95--         //// tidak berubah apa-apa
@@ -53,6 +54,7 @@ INVERS KINEMATIK
 
 
 Gerakan x y z kaki (IK + FORWARD)
+
     0 = kanan
     1 = kiri
     x kanan kiri  = ++ keluar
@@ -62,6 +64,7 @@ Gerakan x y z kaki (IK + FORWARD)
     servo[11]     = pinggul kiri    85-- keluar (kekiri)
     
 Gerakan tangan (FORWARD)
+
     //tangan kanan
     servo[14] = dalam; //1350-- mundur
     servo[13] = tengah; //900-- turun
@@ -72,6 +75,7 @@ Gerakan tangan (FORWARD)
     servo[15]  = luar; //1100++mundur 
     
 Gerakan Kepala
+
     servo[18]  = leher  (kiri kanan) ++
     servo[19]  = kepala (ats bawah)  ++
      
