@@ -1,0 +1,79 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+servoInitError                                                    0x0A00      40
+servo                                                             0x0A28      40
+servoSet                                                          0x0A50      40
+dataInt                                                           0x0A78       8
+data                                                              0x0A80       8
+dataMasuk                                                         0x0A88       8
+countGerakan                                                      0x0A90       2
+I                                                                 0x0A92       2
+index                                                             0x0A94       2
+langkah                                                           0x0A96       2
+langkahMax                                                        0x0A98       2
+jumlahGerak                                                       0x0A9A       2
+speed                                                             0x0A9C       2
+countNo                                                           0x0A9E       2
+VX                                                                0x0AA0       4
+VY                                                                0x0AA4       4
+W                                                                 0x0AA8       4
+initPositionX                                                     0x0AAC       4
+initPositionY                                                     0x0AB0       4
+initPositionZ                                                     0x0AB4       4
+L1                                                                0x0AB8       4
+L2                                                                0x0ABC       4
+L3                                                                0x0AC0       4
+L4                                                                0x0AC4       4
+X                                                                 0x0AC8       8
+Y                                                                 0x0AD0       8
+Z                                                                 0x0AD8       8
+Xin                                                               0x0AE0       4
+Yin                                                               0x0AE4       4
+Zin                                                               0x0AE8       4
+Xset                                                              0x0AEC       8
+Yset                                                              0x0AF4       8
+Zset                                                              0x0AFC       8
+Xerror                                                            0x0B04       8
+Yerror                                                            0x0B0C       8
+Zerror                                                            0x0B14       8
+L1Kuadrat                                                         0x0B1C       4
+L2Kuadrat                                                         0x0B20       4
+L3Kuadrat                                                         0x0B24       4
+L4Kuadrat                                                         0x0B28       4
+XiKuadrat                                                         0x0B2C       4
+YiKuadrat                                                         0x0B30       4
+ZiKuadrat                                                         0x0B34       4
+bi                                                                0x0B38       4
+biKuadrat                                                         0x0B3C       4
+ai                                                                0x0B40       4
+aiKuadrat                                                         0x0B44       4
+ci                                                                0x0B48       4
+gamai                                                             0x0B4C       4
+betai                                                             0x0B50       4
+alphai                                                            0x0B54       8
+A1                                                                0x0B5C       8
+A2                                                                0x0B64       8
+A3                                                                0x0B6C       8
+A5                                                                0x0B74       8
+rad                                                               0x0B7C       4
+sudutSet                                                          0x0B80      80
+Timeslot2                                                         0x0BD0       1
+_seed                                                             0x0BD1       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+eServoInitError                                                   0x0000      40
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+dataRx                                                            R4           1
+countRx                                                           R3           1
+countRxProtokol                                                   R6           1
+delay                                                             R7,R8        2
+countTick                                                         R9,R10       2
+counterTG                                                         R11,R12      2
+counterDelay                                                      R13,R14      2
+Timeslot                                                          R5           1

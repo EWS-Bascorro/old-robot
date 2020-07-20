@@ -1,0 +1,22 @@
+
+       servo[0] = 1500; //arahtanda>
+       servo[1] = 1500;  //arahtanda<
+       servo[2] = 1500; //arahtanda>
+       servo[3] = 1500; //arahtanda< 
+       servo[4] = 1500;  //arahtanda<
+       servo[5] = 1500; //arahdepan<
+       servo[12] = 1500;
+       servo[13] = 1500;
+       servo[14] = 1500;          
+       servo[18] = 1500;   
+       
+       servo[6] = 1500; //arahtanda<
+       servo[7] = 1500;  //arahtanda<
+       servo[8] = 1500; //arahtanda< 
+       servo[9] = 1500; //arahtanda>
+       servo[10] = 1500;  //arahtanda<
+       servo[11] = 1500;  //arahdepan>
+       servo[15] = 1500;
+       servo[16] = 1500;
+       servo[17] = 1500;
+       servo[19] = 1500;

@@ -1,0 +1,2 @@
+1. Sudo pigpio
+2. Sudo "kodinganmu" 
