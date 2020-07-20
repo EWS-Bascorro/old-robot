@@ -2,6 +2,9 @@
  
 Satu 1 DETIK = 45,45
 
+cari bola ada codingan SIAP || case 1 
+ 
+
 INVERS KINEMATIK
     //kaki kanan  (gerakan per servo)                 
     sudutSet[5]  = pinggul (kanan kiri)        90++ depan keluar
@@ -22,31 +25,31 @@ INVERS KINEMATIK
     
                              
                              
-                            //KAKI KANAN
-                            servoInitError[0]=-65;      //-- luar keatas
-                            servoInitError[1]=0;    //-- depan naik
-                            servoInitError[2]=0;      //-- kedepan
-                            servoInitError[3]=-35;      //-- kedepan (++ jejeg)
-                            servoInitError[4]=0;      //++ keluar
-                            servoInitError[5]=0;      //++depan keluar
-                            
-                            KAKI KIRI
-                            servoInitError[6]=-43;      //-- luar keatas
-                            servoInitError[7]=0;      //-- depan naik
-                            servoInitError[8]=0;      //-- kedepan
-                            servoInitError[9]=-35;      //-- kedepan (++ jejeg)
-                            servoInitError[10]=0;      //++ keluar
-                            servoInitError[11]=0;      //-- depan keluar
-                            
-                            TANGAN KANAN
-                            servoInitError[12]=0;      //++ maju
-                            servoInitError[13]=0;      //++ keatas
-                            servoInitError[14]=0;      //++ kedepan
-                            
-                            TANGAN KIRI
-                            servoInitError[15]=0;      //-- maju
-                            servoInitError[16]=0;      //-- keatas
-                            servoInitError[17]=0;      //--keluar
+    //KAKI KANAN
+    servoInitError[0]=-65;      //-- luar keatas
+    servoInitError[1]=0;    //-- depan naik
+    servoInitError[2]=0;      //-- kedepan
+    servoInitError[3]=-35;      //-- kedepan (++ jejeg)
+    servoInitError[4]=0;      //++ keluar
+    servoInitError[5]=0;      //++depan keluar
+    
+    KAKI KIRI
+    servoInitError[6]=-43;      //-- luar keatas
+    servoInitError[7]=0;      //-- depan naik
+    servoInitError[8]=0;      //-- kedepan
+    servoInitError[9]=-35;      //-- kedepan (++ jejeg)
+    servoInitError[10]=0;      //++ keluar
+    servoInitError[11]=0;      //-- depan keluar
+    
+    TANGAN KANAN
+    servoInitError[12]=0;      //++ maju
+    servoInitError[13]=0;      //++ keatas
+    servoInitError[14]=0;      //++ kedepan
+    
+    TANGAN KIRI
+    servoInitError[15]=0;      //-- maju
+    servoInitError[16]=0;      //-- keatas
+    servoInitError[17]=0;      //--keluar
 
 
 Gerakan x y z kaki (IK + FORWARD)
